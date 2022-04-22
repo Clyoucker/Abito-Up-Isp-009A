@@ -1,0 +1,66 @@
+.header{
+    top: 0;
+    background-color: white;
+}
+.header-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-header-elem{
+    display: flex;
+    align-items: center;
+}
+.right-header-elem{
+}
+.logo{
+    display: flex;
+    margin-right: 20px;
+    border: 2px solid red;
+}
+.icon-logo{
+    margin-right: 6px;
+}
+.icon__logo__img{
+    display: block;
+    width: 27px;
+    height: 27px;
+}
+.menu_items{
+    display: flex;
+}
+.buttoms{
+    display: flex;
+}
+
+.btn__txt{
+    padding: 10px 15px;
+}
+.searhing{
+    margin-top: 24px;
+}
+.form-searh{
+    display: flex;
+}
+.elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #256EEB;
+    width: 10%;
+    border-radius: 0px 6px 6px 0px;
+}
+.icon__searh{
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+.txt_searh{
+    color: #ffffff;
+}
+.searh{
+    border-color: #256EEB;
+    width: 90%;
+    height: 44px;
+    padding-left: 21px;
+}

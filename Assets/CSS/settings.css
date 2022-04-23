@@ -1,0 +1,52 @@
+@import url("../../Assets/CSS/header.css");
+@import url("../../Assets/CSS/footer.css");
+@import url("../../Assets/CSS/main.css");
+@import url("../../Assets/CSS/searh.css");
+@import url("../../Assets/CSS/fonts.css");
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: #0A143A;
+}
+.page{
+}
+.input{
+    transition: all 0.3s;
+}
+.input:focus{
+    background-color: #eeeeee;
+}
+.header-btn:hover{
+    background-color: #256EEB;
+    color: white;
+}
+.wrapper{
+    width: 1146px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.section{
+    margin-top: 32px;
+}
+.botton:hover .btn__txt{
+    border-radius: 5px;
+    background-color: #256EEB;
+    color: white;
+}
+.active{
+    color: #256EEB;
+    text-decoration: underline;
+}
+a{
+    transition: all 0.3s;
+}
+a:hover{
+    color: #256EEB;
+    text-decoration: underline;
+}
+
+
+

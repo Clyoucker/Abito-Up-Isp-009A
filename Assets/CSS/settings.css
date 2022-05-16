@@ -4,12 +4,12 @@
 @import url("../../Assets/CSS/searh.css");
 @import url("../../Assets/CSS/fonts.css");
 *{
-    padding: 0px;
-    margin: 0px;
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
     color: #0A143A;
+    padding: 0;
+    margin: 0;
 }
 .page{
 }
@@ -24,12 +24,15 @@
     color: white;
 }
 .wrapper{
-    width: 1146px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.container{
+    max-width: 1146px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 .section{
-    margin-top: 32px;
+    margin-bottom: 32px;
 }
 .botton:hover .btn__txt{
     border-radius: 5px;

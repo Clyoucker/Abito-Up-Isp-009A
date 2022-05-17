@@ -38,6 +38,7 @@
 }
 h1{
     font-family: 'Roboto-Regular';
+    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -57,6 +58,7 @@ h3{
 }
 .nav-item{
     font-family: 'Roboto-Regular';
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -80,6 +82,16 @@ h3{
     font-weight: 700;
     line-height: 19px;
 }
+.contact_name{
+    font-family: 'Roboto-Bold';
+    font-size: 14px;
+    line-height: 16px;
+}
+.contact_ipe{
+    font-family: 'Roboto-Regular';
+    font-size: 12px;
+    line-height: 16px;
+}
 .sub-titels p{
     font-family: 'Roboto-Regular';
     font-style: normal;
@@ -87,4 +99,10 @@ h3{
     font-size: 14px;
     line-height: 16px;
     color: #C4C4C4;
+}
+.sub__titels__big__card__txt{
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    line-height: 20px;
+    line-height: 140%;
 }

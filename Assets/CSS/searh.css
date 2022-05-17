@@ -1,19 +1,19 @@
 .searher{
     margin-top: 90px;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 .searh{
     display: flex;
 }
 .input{
-    width: 90%;
+    width: 91%;
     border: 3px solid #256EEB;
     border-radius: 4px 0px 0px 4px;
     padding: 14px 0px;
     padding-left: 21px;
 }
 .btn-input{
-    width: 10%;
+    width: 9%;
     border: 3px solid #256EEB;
     background-color: #256EEB;
     border-radius: 0px 4px 4px 0px;

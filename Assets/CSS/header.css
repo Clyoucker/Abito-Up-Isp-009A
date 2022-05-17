@@ -1,9 +1,10 @@
 .header{
-    left: 0;
-    right: 0;
     position: fixed;
     background-color: white;
-    padding-top: 28px;
+    width: 100%;
+    padding-top: 30px;
+    left: 0;
+    right: 0;
 }
 .header-body{
     display: flex;
@@ -13,25 +14,23 @@
 .header-left-block{
     display: flex;
     align-items: center;
-    border: 1px solid red;
 }
 .header-right-block{
     display: flex;
     align-items: center;
-    border: 1px solid red;
 }
 .logo-link{
     display: flex;
     gap: 6px;
     margin-right: 20px;
 }
+.logo__name{
+    margin: 0;
+}
 .logo__img{
     display: block;
     width: 27px;
     height: 27px;
-}
-.logo__name{
-
 }
 .items{
     display: flex;
@@ -47,26 +46,18 @@
 }
 .header-btn{
     background-color: white;
-    border: 0px;
     border-radius: 6px;
     width: 161px;
     height: 36px;
     transition: all 0.3s;
 }
+.header-btn:hover{
+    background-color: #256EEB;
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.button:hover .btn__txt{
+    border-radius: 5px;
+    background-color: #256EEB;
+    color: white;
+}

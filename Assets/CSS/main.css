@@ -1,24 +1,42 @@
 .main{
 }
-.main-content{
+.catalog{
+    width: 852px; 
+}
+.main-content-catalog{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
-.section-cards{
-    width: 852px;
+.section-info-card{
+    display: flex;
 }
 .cards{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 24.7px;
     gap: 30px;
 }
 .card{
     width: 264px;
+    margin-bottom: -14.5px;
 }
-.card-image{
-    width: 264px;
+.card-imaged{
+    display: block;
     height: 178px;
+}
+.image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.title{
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
 }
 .card__img{
     display: block;
@@ -30,7 +48,7 @@
 .card-title-and-like{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     margin-top: 12px;
 }
 .like__img{
@@ -45,6 +63,87 @@
     margin-top: 10px;
     pointer-events: none;
 }
+.sub-titels>p{
+    margin-bottom: 4px;
+}
 .icon-heart::after{
     content: "\e905";
 }
+
+.section-info-card{
+    width: 852px; 
+}
+.main-content-product{
+    display: flex;
+    justify-content: space-between;
+}
+.section-card-information .title{
+    margin-bottom: 25px;
+}
+.section-info-card .section{
+    margin-right: 30px;
+}
+.card-big-image{
+    margin-bottom: 16px;
+    max-width: 460px;
+    height: 357px;
+}
+.mini-cards{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 5px;
+}
+.mini-card{
+    max-width: 68px;
+    height: 53px;
+}
+.sub-titels-big-card{
+    width: 460px;
+}
+
+
+
+
+.section-card-contacts{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 264px;
+}
+.contact-info{
+}
+.contact_raiting{
+    display: flex;
+    align-items: center;
+}
+.stars{
+    display: flex;
+    gap: 3px;
+    margin-right: 10px;
+}
+.icon__star{
+    width: 10px;
+    height: 10px;
+}
+.rewier{
+    color: #C4C4C4;
+}
+.contact_ipe{
+    margin-top: 5px;
+}
+.contact-avatar{
+    width: 50px;
+    height: 50px;
+}
+.contact-avatar .image{
+    border-radius: 50%;
+}
+
+
+
+
+

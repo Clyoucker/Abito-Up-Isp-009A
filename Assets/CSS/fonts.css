@@ -1,108 +1,72 @@
 @font-face {
-    font-family: "Roboto-Black";
-    src: url("../../Assets/Fonts/Roboto-Black.ttf");
-}
-@font-face {
     font-family: "Roboto-Bold";
     src: url("../../Assets/Fonts/Roboto-Bold.ttf");
-}
-@font-face {
-    font-family: "Roboto-Light";
-    src: url("../../Assets/Fonts/Roboto-Light.ttf");
-}
-@font-face {
-    font-family: "Roboto-Medium";
-    src: url("../../Assets/Fonts/Roboto-Medium.ttf");
 }
 @font-face {
     font-family: "Roboto-Regular";
     src: url("../../Assets/Fonts/Roboto-Regular.ttf");
 }
-@font-face {
-    font-family: "Roboto-Regular-Thin";
-    src: url("../../Assets/Fonts/Roboto-Thin.ttf");
+
+
+
+/* General Settings */
+h1, h2, .card__cost, .content__sub__icon__title, .contact_name{
+    font-family: "Roboto-Bold";
+    margin: 0;
 }
-.btn__searh__text{
-    font-family: 'Roboto-Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: white;
-}
-.footer-body .title{
-    font-family: 'Roboto-Regular';
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-}
-h1{
-    font-family: 'Roboto-Regular';
-    font-style: normal;
-    font-weight: 700;
+
+
+/* Main */
+.section_title, .logo_text{
     font-size: 24px;
-    line-height: 28px;
 }
-h2{
-    font-family: 'Roboto-Regular';
-    font-weight: 700;
+.sub__title__card, .card__cost{
     font-size: 16px;
-    line-height: 19px;
-    color: #256EEB;
 }
-h3{
-    font-family: 'Roboto-Bold';
-    font-weight: 700;
+.nav_item, .button_link, .single_button, .contact_ipe, .sub__titels__big__card__txt, .btn__searh__text, .card__description, .card__date, .content__sub__title__description, .footer_desc, .footer-help{
+    font-family: "Roboto-Regular";
     font-size: 14px;
-    line-height: 16px;
-}
-.nav-item{
-    font-family: 'Roboto-Regular';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-}
-.footer_desc{
-    font-family: 'Roboto-Regular';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-}
-.footer-help{
-    font-family: 'Roboto-Regular';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-}
-.cost{
-    margin-top: 5px;
-    font-family: 'Roboto-Regular';
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-}
-.contact_name{
-    font-family: 'Roboto-Bold';
-    font-size: 14px;
-    line-height: 16px;
-}
-.contact_ipe{
-    font-family: 'Roboto-Regular';
-    font-size: 12px;
-    line-height: 16px;
-}
-.sub-titels p{
-    font-family: 'Roboto-Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
     color: #C4C4C4;
 }
-.sub__titels__big__card__txt{
-    font-family: 'Roboto-Regular';
+
+
+/* Footer */
+.footer .footer_title{
+    font-size: 18px;
+}
+.footer-content{
+
+}
+.content_element{
+    margin-bottom: 25px;
+}
+.content_element:nth-last-child(){
+    margin-bottom: 0;
+}    
+.content__sub__icon__title, .contact_name, .contact_ipe, .single_button{
     font-size: 14px;
-    line-height: 20px;
-    line-height: 140%;
+}
+.content__sub__title__description{
+    max-width: 231px;
+}
+.footer-items .footer-help{
+    font-size: 12px;
+    color: #ffffff;
+}
+
+
+/* Different */
+.btn__searh__text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+/* Color */
+h1, .contact_name, .contact_ipe, .sub__titels__big__card__txt, .content__sub__title__description, .nav_item, .button_link, .footer-items .footer-help, .content_element h2{
+    color: #0A143A;
+}
+h2{
+    color: #256EEB;
 }

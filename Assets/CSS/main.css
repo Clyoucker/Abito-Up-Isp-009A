@@ -1,82 +1,77 @@
 .main{
+    width: 74.55%;
 }
-.catalog{
-    width: 852px; 
+.section{
 }
-.main-content-catalog{
+.section-cards{
     display: flex;
-    justify-content: space-between;
+    flex-flow: column nowrap;
 }
-.section-info-card{
-    display: flex;
+.title{
+    margin-bottom: 25px;
+}
+.section_title{
 }
 .cards{
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 24.7px;
-    gap: 30px;
+    flex-flow: row wrap;
+    column-gap: 30px;
 }
 .card{
     width: 264px;
-    margin-bottom: -14.5px;
+    margin-bottom: 21px;
 }
-.card-imaged{
+.card_image_link{
     display: block;
     height: 178px;
 }
+.card__round{
+    border-radius: 10px;
+}
 .image{
     object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-.title{
-    font-family: 'Roboto-Regular';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    margin: 0;
-}
-.card__img{
     display: block;
-    object-fit: cover;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
 }
-.card-title-and-like{
+.card-content{
+    margin-top: 12px;
+}
+.card_sub_title_and_like{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-top: 12px;
+    margin-bottom: 5px;
 }
-.like__img{
-    width: 16px;
-    height: 16px;
+.sub__title__card{
+    max-width: 195px;
 }
-.cost::after{
+.icon__link{
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+}
+.card__cost{
+    margin-bottom: 10px;
+}
+.card__cost::after{
     content: "\20BD";
     margin-left: 6px;
 }
-.sub-titels{
-    margin-top: 10px;
-    pointer-events: none;
-}
-.sub-titels>p{
+.card__description{
     margin-bottom: 4px;
 }
-.icon-heart::after{
-    content: "\e905";
+
+
+
+
+
+.sections__row{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 30px;
 }
 
-.section-info-card{
-    width: 852px; 
-}
-.main-content-product{
-    display: flex;
-    justify-content: space-between;
-}
 .section-card-information .title{
     margin-bottom: 25px;
 }
@@ -111,7 +106,6 @@
 .contact{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
     width: 264px;
 }
 .contact-info{
@@ -142,8 +136,39 @@
 .contact-avatar .image{
     border-radius: 50%;
 }
+.sub__titels__big__card__txt{
+    line-height: 19.6px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.single-button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 54px;
+    margin-bottom: 14px;
+}
+.single_button{
+    display: block;
+    width: 264px;
+    text-align: center;
+    color: #ffffff;
+}
+.phote{
+    background-color: #256EEB;
+}
+.message{
+    background-color: #14B4BE
+    ; 
+}
 
 
-
-
-
+@media (max-width:1024px){
+    .sections__row{
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 30px;
+    }
+}
